@@ -1,0 +1,82 @@
+
+#gameboard {
+	z-index: 1;
+	width: 700px;
+	height: 600px;
+	background-color: lightblue;
+	margin-left: 300px;
+	margin-right: 300px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	border: solid lightblue 10px;
+}
+
+.element {
+	background-color: lightgrey;
+	border-radius: 50%;
+}
+
+#test-piece-container {
+	position: relative;
+	background-color: aquamarine;
+	height: 100px;
+}
+#test-piece {
+	width: 100px;
+	background-color: blueviolet;
+	position: absolute;
+}
+
+.h-row {
+	height: 90px;
+	width: 90px;
+	background-color: lightcyan;
+	/* animation-name: dropPiece;
+	animation-duration: 2s;	 */
+	border-radius: 50%;
+	z-index: 0;		
+	position: absolute;
+}
+
+#H1 {
+	z-index: 0;	
+	margin-left: 0px;
+}
+#H2 {
+	margin-left: 100px;
+}
+#H3 {
+	margin-left: 200px;
+}
+#H4 {
+	margin-left: 300px;
+}
+#H5 {
+	margin-left: 400px;
+}
+#H6 {
+	margin-left: 500px;
+}
+#H7 {
+	margin-left: 600px;
+}
+
+
+/* @keyframes dropPiece {
+	from { margin-top: 0px; }
+	to { margin-top: 500px; } 
+} */
+
+#top-area {
+	margin-top: 0px;
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	width: 700px;
+	height: 100px;
+	margin-left: 310px;
+	grid-gap: 10px;
+}
+
